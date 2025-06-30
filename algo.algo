@@ -1,0 +1,114 @@
+ALGORITHM areaOfRectangle
+VAR
+    L: INTEGER;
+    W: INTEGER;
+    area:INTEGER
+BEGIN
+    read(L)
+    read(W)
+    area:= L*W 
+    write (area)
+
+END
+
+
+ALGORITHM  studentGrade
+VAR
+    score:float
+BEGIN
+    
+   read(score) 
+   IF (score<50)) THEN
+    write("fail")
+   ELSE_IF (score <89) THEN
+   write ("pass")
+   ELSE_IF(score <=100)THEN
+   write("excellent")
+   ELSE 
+   write("invalid number")
+
+   END_IF
+
+END
+
+ALGORITHM returnFctorial
+VAR
+READ(FACT)
+    fact: INTEGER
+    result:INTEGER 
+BEGIN
+    IF (fact=1 OR =0 )THEN
+        write (1)
+    ELSE result +1
+    FOR i FROM 2 TO n   DO
+        result * i
+    END_FOR
+END
+
+ALGORITHM algorithm_name
+VAR
+    NUM: 
+    FACT:
+BEGIN
+    REAS
+END
+
+
+
+
+ALGORITHM  snakeCase
+VAR
+    LOS: INTEGER= 0
+    STR:STRING 
+      NOW:INTEGER=1
+      NOV:INTEGER
+
+BEGIN
+    read(str)
+    WHILE (str[LOS]!=".") DO
+      IF (str[LOS]=" ") THEN
+        now+1
+      END_IF
+       IF (str[LOS]=aeiouAEIOU) THEN
+    NOV = NOV+1 
+ END_IF
+      LOS=LOS+1  
+
+    END_WHILE
+    LOS=LOS+1
+    write(LOS)
+    write(NOW) 
+    write(NOV)
+
+
+END
+
+
+
+
+
+        NOW:INTEGER=1
+        str:STRING
+ read(str)
+WHILE (str[NOW]="") DO
+    NOW = NOW+1
+END_WHILE
+   write(NOW)
+
+
+
+
+
+
+MY NAME IS EMMA
+
+
+   NOV:INTEGER
+str:INTEGER
+ read(str)
+ IF (str[NOV]=aeiouAEIOU) THEN
+    NOV = NOV+1 
+ END_IF
+ write(NOV)
+  
+
